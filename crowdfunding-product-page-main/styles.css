@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*******
+TYPOGRAPHY
+*******/
+
+body {
+    font-family: 'Commissioner', sans-serif;
+}
+
+#mastHead {
+    background-image: url(images/image-hero-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    background-image: linear-Gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+}
+
+#navLinks {
+    background-color: white;
+    position: relative;
+}
+
+.link {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.link:nth-child(2) {
+    border-top: 1px solid hsl(0, 0%, 90%);
+    border-bottom: 1px solid hsl(0, 0%, 90%);
+}
+
+#pageTitle {
+    color: white;
+}
+
+section {
+    margin: 1em 0;
+}
+
+/*******
+SPACING & ALIGNMENT
+*******/
+
+#mastHead {
+    margin: 0;
+    height: 34vh;
+}
+
+nav {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    padding: 1em 0;
+}
+
+#pageTitle {
+    margin-left: 1em;
+}
+
+#menuIcon {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
+
+#navLinks {
+    position: relative;
+    display: none;
+    flex-direction: column;
+    margin: 1em auto;
+    width: 90%;
+    max-height: 200px;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.link {
+    display: block;
+    padding: 1.3em;
+}
+
+#pageTitle {
+
+}
+
+section {
+    margin: 1em 0;
+}
