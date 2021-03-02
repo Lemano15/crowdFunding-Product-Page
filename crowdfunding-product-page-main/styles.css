@@ -9,6 +9,7 @@ TYPOGRAPHY
 
 body {
     font-family: 'Commissioner', sans-serif;
+    background-color:hsl(0, 0%, 95%);
 }
 
 #mastHead {
@@ -43,7 +44,19 @@ nav {
 }
 
 section {
-    margin: 1em 0;
+    background-color: white;
+}
+
+p {
+    font-weight: 400;
+    color:hsl(0, 0%, 60%);
+}
+
+button {
+    background-color: hsl(176, 50%, 47%);
+    color: white;
+    border: none;
+    font-weight: 700;
 }
 
 /*******
@@ -53,6 +66,8 @@ SPACING & ALIGNMENT
 #mastHead {
     margin: 0;
     height: 34vh;
+    position: relative;
+    z-index: 1;
 }
 
 nav {
@@ -63,7 +78,7 @@ nav {
     flex-wrap: wrap;
     position: fixed;
     width: 100%;
-    padding: 1em 0;
+    padding: 1.5em 0;
 }
 
 #pageTitle {
@@ -86,6 +101,7 @@ nav {
     max-height: 200px;
     max-width: 500px;
     border-radius: 10px;
+    z-index: -1;
 }
 
 .link {
@@ -93,10 +109,68 @@ nav {
     padding: 1.3em;
 }
 
-#pageTitle {
-
+#webContent {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+    position: relative;
+    top: -65px;
 }
 
+#contentHeading > img {
+    max-width: 50px;
+}
+
+#contentHeading {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    padding: 2.5em 1em;
+    z-index: 2;
+}
+
+.projectTitle {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.projectSubtitle {
+    width: 100%;
+    margin: 1.3em auto;
+    line-height: 25px;
+    font-size: .9rem;
+}
+
+#logo {
+    position: absolute;
+    top: -10%;
+    right: 0;
+    bottom: 0;
+    left: 42%;
+    order: -1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 70%;
+    margin: 0;
+    font-size: 1rem;
+    max-width: 200px;
+    padding: 1.2em;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+}
+
+#bookmark {
+
+}
 section {
     margin: 1em 0;
+    border-radius: 8px;
 }
