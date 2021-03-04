@@ -40,14 +40,17 @@
 
   <main id="webContent">
     <section id="contentHeading">
-      <h3 class="projectTitle title">Mastercraft Bamboo Monitor Riser</h3>
+      <h3 class="projectTitle">Mastercraft Bamboo Monitor Riser</h3>
       <p class="projectSubtitle">
         A beautifully handcrafted monitor stand to reduce neck and eye strain.
       </p>
       <img id="logo" src="images/logo-mastercraft.svg" alt="mastercraft logo"/>
       <div class="container">
         <button id="backProjectBttn">Back this project</button>
-        <img id="bookmark" src="images/icon-bookmark.svg"/>
+        <div class="container">
+          <img id="bookmark" src="images/icon-bookmark.svg"/>
+          <h2 class="bookmarkLabel">Bookmark</h2>
+        </div>
       </div>
     </section>
 
@@ -70,38 +73,41 @@
         </h2>
         <p class="informatics--block--subtitle">days left</p>
       </article>
+      <div id="progressContainer">
+        <div id="progressBar"></div>
+      </div>
     </section>
 
     <section id="productInformation">
-      <h3 class="title">About this project</h3>
-      <p>The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
+      <h3 class="aboutTitle">About this project</h3>
+      <p class="projectDescription paragraph">The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
         to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve 
         your posture and make you more comfortable while at work, helping you stay focused on the task at hand.</p>
-      <p>Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer 
+      <p class="projectDescription paragraph">Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer 
         to allow notepads, pens, and USB sticks to be stored under the stand.</p>
       <article class="rewardComponent">
         <h4 class="rewardTitle">Bamboo Stand</h4>
         <h4 class="rewardSubtitle">Pledge $25 or more</h4>
-        <p class="rewardDescription">You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
+        <p class="rewardDescription paragraph">You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
           you’ll be added to a special Backer member list.</p>
-        <p><span class="bambooStandCounter">101</span>left</p>
-        <button class="bambooBttn">Select Reward</button>
+        <p class="counter"><span class="bambooStandCounter counterNumber">101</span>left</p>
+        <button class="bambooBttn rewardBttn">Select Reward</button>
       </article>
       <article class="rewardComponent">
         <h4 class="rewardTitle">Black Edition Stand</h4>
         <h4 class="rewardSubtitle">Pledge $75 or more</h4>
-        <p class="rewardDescription">You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
+        <p class="rewardDescription paragraph">You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
           member list. Shipping is included.</p>
-        <p><span class="blackStandCounter">64</span>left</p>
-        <button class="blackBttn">Select Reward</button>
+        <p class="counter"><span class="blackStandCounter counterNumber">64</span>left</p>
+        <button class="blackBttn rewardBttn">Select Reward</button>
       </article>
       <article class="rewardComponent">
         <h4 class="rewardTitle">Mahogany Special Edition</h4>
         <h4 class="rewardSubtitle">Pledge $200 or more</h4>
-        <p class="rewardDescription">You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added 
+        <p class="rewardDescription paragraph">You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added 
           to our Backer member list. Shipping is included.</p>
-        <p><span class="mahoganyCounter">0</span>left</p>
-        <button class="mahoganyBttn">Out of Stock</button>
+        <p class="counter"><span class="mahoganyCounter counterNumber">0</span>left</p>
+        <button class="mahoganyBttn rewardBttn">Out of Stock</button>
       </article>
     </section>
   
@@ -115,13 +121,13 @@
           <input type="radio" class="supportInput">
           <h3 class="supportTitle">Pledge with no reward</h3>
         </div>
-        <p class="supportDescription">Choose to support us without a reward if you simply believe in our project. As a backer, 
+        <p class="supportDescription paragraph">Choose to support us without a reward if you simply believe in our project. As a backer, 
           you will be signed up to receive product updates via email.</p>
         <div class="supportSelected">
           <p class="supportSelected--message">Enter your pledge</p>
           <form class="donationForm">
             <input type="input" placeholder="$0.00">
-            <button type="submit" class="submitPriceBttn">Continue</button>
+            <button type="submit" class="submitPriceBttn rewardBttn">Continue</button>
           </form>
         </div>
       </article>
@@ -136,16 +142,16 @@
             </div>
           </div>
         </div>
-        <p class="rewardDescription">You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
+        <p class="rewardDescription paragraph">You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
           you’ll be added to a special Backer member list.
           </p>
-        <p><span class="bambooStandCounter">101</span>left</p>
+        <p class="counter"><span class="bambooStandCounter counterNumber">101</span>left</p>
         
         <div class="rewardSelected">
           <p class="rewardSelected--message">Enter your pledge</p>
           <form class="donationForm">
             <input type="input" placeholder="$0.00">
-            <button type="submit" class="bambooBttn">Continue</button>
+            <button type="submit" class="bambooBttn rewardBttn">Continue</button>
           </form>
         </div>
       </article>
@@ -160,14 +166,14 @@
             </div>
           </div>
         </div>
-        <p class="rewardDescription">You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
+        <p class="rewardDescription paragraph">You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
           member list. Shipping is included.</p>
-        <p><span class="blackStandCounter">101</span>left</p>
+        <p class="counter"><span class="blackStandCounter counterNumber">101</span>left</p>
         <div class="rewardSelected">
           <p class="rewardSelected--message">Enter your pledge</p>
           <form class="donationForm">
             <input type="input" placeholder="$0.00">
-            <button class="blackBttn">continue</button>
+            <button class="blackBttn rewardBttn">continue</button>
           </form>
         </div>
       </article>
@@ -182,15 +188,15 @@
             </div>
           </div>
         </div>
-        <p class="rewardDescription">You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
+        <p class="rewardDescription paragraph">You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
           to our Backer member list. Shipping is included.</p>
-        <p><span class="mahoganyCounter">0</span>left</p>
+        <p class="counter"><span class="mahoganyCounter counterNumber">0</span>left</p>
         
         <div class="rewardSelected">
           <p class="rewardSelected--message">Enter your pledge</p>
           <form class="donationForm">
             <input type="input" placeholder="$0.00">
-            <button class="bambooBttn">Continue</button>
+            <button class="bambooBttn rewardBttn">Continue</button>
           </form>
         </div>
       </article>
