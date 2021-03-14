@@ -111,22 +111,27 @@
       </article>
     </section>
   
-    <section>
-      <h3>Back this project</h3>
-      <img src="images/icon-close-modal.svg" alt="close button"/>
-      <p>Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
+    <section id="rewardSelections">
+      <div class="container">
+        <h3>Back this project</h3>
+        <img src="images/icon-close-modal.svg" alt="close button"/>
+      </div>
+      <p class="paragraph selectionsSubtitle">Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
 
-      <article class="supportOption">
-        <div class="supportSelector">
-          <input type="radio" class="supportInput">
-          <h3 class="supportTitle">Pledge with no reward</h3>
+      <article class="rewardOption rewardComponent">
+        <div class="rewardSelector">
+          <div class="selectorContainer">
+            <input type="radio" class="supportInput">
+            <span class="inputDot"></span>
+          </div>
+          <h4 class="rewardTitle rewardTitleContainer">Pledge with no reward</h4>
         </div>
-        <p class="supportDescription paragraph">Choose to support us without a reward if you simply believe in our project. As a backer, 
+        <p class="rewardDescription paragraph">Choose to support us without a reward if you simply believe in our project. As a backer, 
           you will be signed up to receive product updates via email.</p>
-        <div class="supportSelected">
-          <p class="supportSelected--message">Enter your pledge</p>
+        <div class="rewardSelected">
+          <p class="rewardSelected--message">Enter your pledge</p>
           <form class="donationForm">
-            <input type="input" placeholder="$0.00">
+            <input type="input" class="donationAmount" placeholder="$0.00">
             <button type="submit" class="submitPriceBttn rewardBttn">Continue</button>
           </form>
         </div>
@@ -135,7 +140,10 @@
       <article class="rewardComponent">
         <div>
           <div class="rewardSelector">
-            <input type="radio" class="supportInput">
+            <div class="selectorContainer">
+              <input type="radio" class="supportInput">
+              <span class="inputDot"></span>
+            </div>
             <div class="rewardTitleContainer">
               <h4 class="rewardTitle">Bamboo Stand</h4>
               <h4 class="rewardSubtitle">Pledge $25 or more</h4>
@@ -150,7 +158,7 @@
         <div class="rewardSelected">
           <p class="rewardSelected--message">Enter your pledge</p>
           <form class="donationForm">
-            <input type="input" placeholder="$0.00">
+            <input type="input" class="donationAmount" placeholder="$0.00">
             <button type="submit" class="bambooBttn rewardBttn">Continue</button>
           </form>
         </div>
@@ -159,7 +167,10 @@
       <article class="rewardComponent">
         <div>
           <div class="rewardSelector">
-            <input type="radio" class="supportInput">
+            <div class="selectorContainer">
+              <input type="radio" class="supportInput">
+              <span class="inputDot"></span>
+            </div>
             <div class="rewardTitleContainer">
               <h4 class="rewardTitle">Black Edition Stand</h4>
               <h4 class="rewardSubtitle">Pledge $25 or more</h4>
@@ -172,7 +183,7 @@
         <div class="rewardSelected">
           <p class="rewardSelected--message">Enter your pledge</p>
           <form class="donationForm">
-            <input type="input" placeholder="$0.00">
+            <input type="input" class="donationAmount" placeholder="$0.00">
             <button class="blackBttn rewardBttn">continue</button>
           </form>
         </div>
@@ -181,7 +192,10 @@
       <article class="rewardComponent">
         <div>
           <div class="rewardSelector">
-            <input type="radio" class="supportInput">
+            <div class="selectorContainer">
+              <input type="radio" class="supportInput">
+              <span class="inputDot"></span>
+            </div>
             <div class="rewardTitleContainer">
               <h4 class="rewardTitle">Mahogany Special Edition</h4>
               <h4 class="rewardSubtitle">Pledge $200 or more</h4>
@@ -195,7 +209,7 @@
         <div class="rewardSelected">
           <p class="rewardSelected--message">Enter your pledge</p>
           <form class="donationForm">
-            <input type="input" placeholder="$0.00">
+            <input type="input" class="donationAmount" placeholder="$0.00">
             <button class="bambooBttn rewardBttn">Continue</button>
           </form>
         </div>
@@ -203,12 +217,11 @@
     </section>
 
     <section id="donationCompletedPage">
-      <img src="images/icon-check.svg">
+      <img class="checkMark" src="images/icon-check.svg">
       <h2 class="thanksTitle">Thanks for your support!</h2>
       <p class="thanksMessage">
         Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
         an email once our campaign is completed.
-        Got it!
       </p>
       <button id="gotItBttn">Got it!</button>
     </section>

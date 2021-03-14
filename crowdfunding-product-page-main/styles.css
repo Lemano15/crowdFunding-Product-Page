@@ -90,6 +90,10 @@ button {
     font-weight: 700;
 }
 
+.donationAmount {
+    border: 1px solid hsl(0, 0%, 85%);
+}
+
 /*******
 SPACING & ALIGNMENT
 *******/
@@ -270,7 +274,8 @@ nav {
 
 .paragraph {
     line-height: 25px;
-    margin: 2em 0;
+    margin: 1.5em 0;
+    font-size: .9rem;
 }
 
 .rewardComponent {
@@ -300,6 +305,95 @@ nav {
 .rewardBttn {
     margin: .8em 0;
     padding: 1em;
+    max-width: 150px;
+}
+
+#rewardSelections {
+    padding: 1em;
+}
+
+#rewardSelections .rewardComponent {
+    padding: 0;
+    padding-top: .5em;
+}
+
+#rewardSelections .container {
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+#rewardSelections .rewardDescription {
+    padding: 0 1em;
+}
+
+#rewardSelections .rewardComponent .counter {
+    padding: 1em;
+}
+
+.selectionsSubtitle {
+    padding: 0;
+    margin: 0;
+}
+
+.rewardSelector {
+    display: flex;
+    align-items: center;
+    padding: 1.8em 1em;
+}
+
+
+.rewardTitleContainer {
+    margin: 0 1em;
+}
+
+.rewardSelected {
+    display: block;
+    padding: 1em;
+    text-align: center;
+    border-top: 1px solid hsl(0, 0%, 85%);
+}
+
+.rewardSelected--message {
+    padding: .8em 0;
+}
+
+.donationForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.donationForm > button {
+    max-width: 120px;
+}
+
+.donationAmount {
+    max-width: 65px;
+    padding: 1em;
+    border-radius: 50px;
+}
+
+#donationCompletedPage {
+    padding: 1em .8em;
+    text-align: center;
+}
+
+.checkMark {
+    padding: 1em 0;
+}
+
+.thanksTitle {
+    font-size: 1.3rem;
+}
+
+.thanksMessage {
+    padding: 1em 0;
+    line-height: 30px;
+}
+
+#gotItBttn {
+    max-width: 140px;
+    margin: 1em 0;
 }
 
 section {
