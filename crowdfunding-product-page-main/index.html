@@ -20,22 +20,22 @@
 </head>
 
 <body>
+  <nav id="nav">
+    <h2 id="pageTitle">crowdfund</h2>
+    <img id="menuIcon" 
+    src="images/icon-hamburger.svg" 
+    alt="mobile navigation toggler"
+    onclick="toggleNavigation()"/>
+  <!--Dropdown links-->
+    <div id="navLinks" style="display:none">
+      <a class="link" href="#">About</a>
+      <a class="link" href="#">Discover</a>
+      <a class="link" href="#">Get Started</a>
+    </div>
+    
+  </nav>
   <header id="mastHead" class="overlay">
     <!--Top navigation menu-->
-    <nav id="nav">
-      <h2 id="pageTitle">crowdfund</h2>
-      <img id="menuIcon" 
-      src="images/icon-hamburger.svg" 
-      alt="mobile navigation toggler"
-      onclick="toggleNavigation()"/>
-    <!--Dropdown links-->
-      <div id="navLinks" style="display:none">
-        <a class="link" href="#">About</a>
-        <a class="link" href="#">Discover</a>
-        <a class="link" href="#">Get Started</a>
-      </div>
-      
-    </nav>
   </header>
 
   <main id="webContent">
@@ -131,7 +131,7 @@
         <div class="rewardSelected">
           <p class="rewardSelected--message">Enter your pledge</p>
           <form class="donationForm">
-            <input type="input" class="donationAmount" placeholder="$0.00">
+            <input type="number" class="donationAmount"><span class="dollarSymbol">$</span>
             <button type="submit" class="submitPriceBttn rewardBttn">Continue</button>
           </form>
         </div>
@@ -158,7 +158,7 @@
         <div class="rewardSelected">
           <p class="rewardSelected--message">Enter your pledge</p>
           <form class="donationForm">
-            <input type="input" class="donationAmount" placeholder="$0.00">
+            <input type="number" class="donationAmount"><span class="dollarSymbol">$</span>
             <button type="submit" class="bambooBttn rewardBttn">Continue</button>
           </form>
         </div>
@@ -183,7 +183,7 @@
         <div class="rewardSelected">
           <p class="rewardSelected--message">Enter your pledge</p>
           <form class="donationForm">
-            <input type="input" class="donationAmount" placeholder="$0.00">
+            <input type="number" class="donationAmount"><span class="dollarSymbol">$</span>
             <button class="blackBttn rewardBttn">continue</button>
           </form>
         </div>
@@ -209,7 +209,7 @@
         <div class="rewardSelected">
           <p class="rewardSelected--message">Enter your pledge</p>
           <form class="donationForm">
-            <input type="input" class="donationAmount" placeholder="$0.00">
+            <input type="number" class="donationAmount"><span class="dollarSymbol">$</span>
             <button class="bambooBttn rewardBttn">Continue</button>
           </form>
         </div>

@@ -102,14 +102,6 @@ body {
     width: 100%;
 }
 
-#mastHead {
-    margin: 0;
-    height: 34vh;
-    position: relative;
-    z-index: 1;
-    width: 100%;
-}
-
 nav {
     overflow: hidden;
     display: flex;
@@ -119,6 +111,7 @@ nav {
     position: fixed;
     width: 100%;
     padding: 1.5em 0;
+    z-index: 2;
 }
 
 #pageTitle {
@@ -141,7 +134,6 @@ nav {
     max-height: 200px;
     max-width: 500px;
     border-radius: 10px;
-    z-index: -1;
 }
 
 .link {
@@ -149,12 +141,22 @@ nav {
     padding: 1.3em;
 }
 
+#mastHead {
+    margin: 0;
+    height: 34vh;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+}
+
+
 #webContent {
     width: 90%;
     margin: 0 auto;
     padding: 1em;
     position: relative;
-    top: -65px;
+    top: -100px;
+    z-index: 1;
 }
 
 #contentHeading > img {
@@ -167,7 +169,6 @@ nav {
     position: relative;
     text-align: center;
     padding: 2.5em 1em;
-    z-index: 2;
 }
 
 .projectTitle {
@@ -341,7 +342,6 @@ nav {
     padding: 1.8em 1em;
 }
 
-
 .rewardTitleContainer {
     margin: 0 1em;
 }
@@ -360,6 +360,7 @@ nav {
 .donationForm {
     display: flex;
     align-items: center;
+    position: relative;
     justify-content: space-evenly;
 }
 
@@ -371,6 +372,15 @@ nav {
     max-width: 65px;
     padding: 1em;
     border-radius: 50px;
+    text-indent: 1em;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.dollarSymbol {
+    position: absolute;
+    margin: 0;
+    max-width: 5%;
 }
 
 #donationCompletedPage {
